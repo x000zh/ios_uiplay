@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE12F7C41EA07791007FC6CE /* SubViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE12F7C31EA07791007FC6CE /* SubViewController.m */; };
 		CECF717B1E9762E3008AE861 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CECF717A1E9762E3008AE861 /* main.m */; };
 		CECF717E1E9762E3008AE861 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CECF717D1E9762E3008AE861 /* AppDelegate.m */; };
 		CECF71811E9762E3008AE861 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CECF71801E9762E3008AE861 /* ViewController.m */; };
-		CECF71841E9762E3008AE861 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CECF71821E9762E3008AE861 /* Main.storyboard */; };
 		CECF71861E9762E3008AE861 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CECF71851E9762E3008AE861 /* Assets.xcassets */; };
 		CECF71891E9762E3008AE861 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CECF71871E9762E3008AE861 /* LaunchScreen.storyboard */; };
 		CECF71941E9762E3008AE861 /* uiplayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CECF71931E9762E3008AE861 /* uiplayTests.m */; };
@@ -35,13 +35,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CE12F7C21EA07791007FC6CE /* SubViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubViewController.h; sourceTree = "<group>"; };
+		CE12F7C31EA07791007FC6CE /* SubViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubViewController.m; sourceTree = "<group>"; };
 		CECF71761E9762E3008AE861 /* uiplay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = uiplay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CECF717A1E9762E3008AE861 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CECF717C1E9762E3008AE861 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CECF717D1E9762E3008AE861 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		CECF717F1E9762E3008AE861 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		CECF71801E9762E3008AE861 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		CECF71831E9762E3008AE861 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CECF71851E9762E3008AE861 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CECF71881E9762E3008AE861 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CECF718A1E9762E3008AE861 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -105,7 +106,8 @@
 				CECF717D1E9762E3008AE861 /* AppDelegate.m */,
 				CECF717F1E9762E3008AE861 /* ViewController.h */,
 				CECF71801E9762E3008AE861 /* ViewController.m */,
-				CECF71821E9762E3008AE861 /* Main.storyboard */,
+				CE12F7C21EA07791007FC6CE /* SubViewController.h */,
+				CE12F7C31EA07791007FC6CE /* SubViewController.m */,
 				CECF71851E9762E3008AE861 /* Assets.xcassets */,
 				CECF71871E9762E3008AE861 /* LaunchScreen.storyboard */,
 				CECF718A1E9762E3008AE861 /* Info.plist */,
@@ -251,7 +253,6 @@
 			files = (
 				CECF71891E9762E3008AE861 /* LaunchScreen.storyboard in Resources */,
 				CECF71861E9762E3008AE861 /* Assets.xcassets in Resources */,
-				CECF71841E9762E3008AE861 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +280,7 @@
 				CECF71811E9762E3008AE861 /* ViewController.m in Sources */,
 				CECF717E1E9762E3008AE861 /* AppDelegate.m in Sources */,
 				CECF717B1E9762E3008AE861 /* main.m in Sources */,
+				CE12F7C41EA07791007FC6CE /* SubViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,14 +316,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		CECF71821E9762E3008AE861 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CECF71831E9762E3008AE861 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CECF71871E9762E3008AE861 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -518,6 +512,7 @@
 				CECF71A51E9762E3008AE861 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CECF71A61E9762E3008AE861 /* Build configuration list for PBXNativeTarget "uiplayTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +521,7 @@
 				CECF71A81E9762E3008AE861 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CECF71A91E9762E3008AE861 /* Build configuration list for PBXNativeTarget "uiplayUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +530,7 @@
 				CECF71AB1E9762E3008AE861 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
