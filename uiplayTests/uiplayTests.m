@@ -27,6 +27,9 @@
 - (void)testExample {
     // This is an example of a functional test case.
     // Use XCTAssert and related functions to verify your tests produce the correct results.
+    
+    NSURL* url = [NSURL URLWithString:@"http://eu.api.enayehme.com/v3/article.html?id=0fa8ecae3600e12ba614f3153bfa5b7a   "];
+    XCTAssertNil(url,"xxxxx");
 }
 
 - (void)testPerformanceExample {
